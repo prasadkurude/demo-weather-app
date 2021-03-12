@@ -42,7 +42,7 @@ temp: localStorage.getItem(this.state.cityName)
 })
 }
 const weather2 = localStorage.getItem(this.state.cityName);
-//alert("temperature of " + this.state.cityName + " is " + this.state.temp)
+alert("temperature of " + this.state.cityName + " is " + this.state.temp)
 setTimeout( 
     //alert("Hi"),
     localStorage.removeItem(this.state.cityName)
