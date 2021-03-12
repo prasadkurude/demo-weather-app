@@ -33,7 +33,7 @@ temp: response.data.main.temp
 
 setValue = (event) => {
 const weather = localStorage.getItem(this.state.cityName);
-alert("weather is "+weather)
+//alert("weather is "+weather)
 if (weather == null || weather == undefined || weather == "") {
 this.displayWeather();
 } else {
@@ -42,10 +42,11 @@ temp: localStorage.getItem(this.state.cityName)
 })
 }
 const weather2 = localStorage.getItem(this.state.cityName);
-alert("temperature of " + this.state.cityName + " is " + this.state.temp)
-setTimeout(function () {
-    localStorage.removeItem(this.state.cityName);
-    }, 10000);
+//alert("temperature of " + this.state.cityName + " is " + this.state.temp)
+setTimeout( 
+    //alert("Hi"),
+    localStorage.removeItem(this.state.cityName)
+    , 1000);
     
 }
 
