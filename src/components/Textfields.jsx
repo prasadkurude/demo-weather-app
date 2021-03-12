@@ -57,7 +57,7 @@ label={"enter City name"}
 <Button
 onClick={this.setValue}
 style={{backgroundColor: "green"}}>
->Enter</Button>
+Enter</Button>
 </div>
 )
 }
